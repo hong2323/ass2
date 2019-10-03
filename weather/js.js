@@ -1,4 +1,4 @@
-const cities = [353412];
+const cities = [353412, 352954, 353981];
 const apikey = 'gHuEn9ghiy20CHSHAJ4ccgWcdU0XWkGS';
 
 Vue.component('weather-day', {
@@ -57,18 +57,19 @@ var app = new Vue({
     days: [],
     cities: [
       {value: 353412, name: "Hà Nội"},
-      
+      {value: 352954, name: "Đà Nẵng"},
+      {value: 353981, name: "TP Hồ Chí Minh"},
     ],
     load: true,
   },
   computed: {
     city_name() {
-      let city_names = ['Hà Nội'];
+      let city_names = ['Hà Nội', 'Đà Nẵng', 'TP Hồ Chí Minh'];
       return city_names[cities.indexOf(this.city_key)];
     },
 
     city_image() {
-      let imgs = ['images/hanoi.jpg'];
+      let imgs = ['images/hanoi.jpg','images/danang.jpg','images/tphcm.jpg'];
       return imgs[cities.indexOf(this.city_key)];
     },
 
@@ -142,4 +143,3 @@ var app = new Vue({
     },
   },
 })
-
