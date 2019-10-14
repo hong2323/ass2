@@ -1,0 +1,51 @@
+{
+  "Headline": {
+    "EffectiveDate": "2019-10-14T13:00:00+07:00",
+    "EffectiveEpochDate": 1571032800,
+    "Severity": 5,
+    "Text": "Expect rainy weather Monday afternoon through Tuesday afternoon",
+    "Category": "rain",
+    "EndDate": "2019-10-15T19:00:00+07:00",
+    "EndEpochDate": 1571140800,
+    "MobileLink": "http://m.accuweather.com/en/vn/hanoi/353412/extended-weather-forecast/353412?lang=en-us",
+    "Link": "http://www.accuweather.com/en/vn/hanoi/353412/daily-weather-forecast/353412?lang=en-us"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2019-10-14T07:00:00+07:00",
+      "EpochDate": 1571011200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 73,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 86,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 12,
+        "IconPhrase": "Showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 18,
+        "IconPhrase": "Rain",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/vn/hanoi/353412/daily-weather-forecast/353412?day=1&lang=en-us",
+      "Link": "http://www.accuweather.com/en/vn/hanoi/353412/daily-weather-forecast/353412?day=1&lang=en-us"
+    }
+  ]
+}
+	
